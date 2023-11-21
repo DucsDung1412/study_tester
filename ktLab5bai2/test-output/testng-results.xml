@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T15:58:48 ICT" name="Suite1" finished-at="2023-11-21T15:58:48 ICT" duration-ms="59">
+    <groups>
+    </groups>
+    <test started-at="2023-11-21T15:58:48 ICT" name="Regression1" finished-at="2023-11-21T15:58:48 ICT" duration-ms="59">
+      <class name="fpoly.domeTwo">
+        <test-method signature="f3()[pri:0, instance:fpoly.domeTwo@505fc5a4]" started-at="2023-11-21T15:58:48 ICT" name="f3" finished-at="2023-11-21T15:58:48 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method signature="f4()[pri:0, instance:fpoly.domeTwo@505fc5a4]" started-at="2023-11-21T15:58:48 ICT" name="f4" finished-at="2023-11-21T15:58:48 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+      </class> <!-- fpoly.domeTwo -->
+      <class name="fpoly.demoOne">
+        <test-method signature="f()[pri:0, instance:fpoly.demoOne@1e683a3e]" started-at="2023-11-21T15:58:48 ICT" name="f" finished-at="2023-11-21T15:58:48 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f2()[pri:0, instance:fpoly.demoOne@1e683a3e]" started-at="2023-11-21T15:58:48 ICT" name="f2" finished-at="2023-11-21T15:58:48 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+      </class> <!-- fpoly.demoOne -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

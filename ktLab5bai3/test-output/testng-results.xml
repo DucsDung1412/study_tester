@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T16:01:40 ICT" name="suite1" finished-at="2023-11-21T16:01:40 ICT" duration-ms="57">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="groupExamples.testMethod1()[pri:0, instance:fpoly.groupExamples@741a8937]" name="testMethod1" class="fpoly.groupExamples"/>
+        <method signature="groupExamples.testMethod3()[pri:0, instance:fpoly.groupExamples@741a8937]" name="testMethod3" class="fpoly.groupExamples"/>
+      </group> <!-- Smoke Test -->
+      <group name="Regresstion">
+        <method signature="groupExamples.testMethod1()[pri:0, instance:fpoly.groupExamples@741a8937]" name="testMethod1" class="fpoly.groupExamples"/>
+      </group> <!-- Regresstion -->
+    </groups>
+    <test started-at="2023-11-21T16:01:40 ICT" name="Test1" finished-at="2023-11-21T16:01:40 ICT" duration-ms="57">
+      <class name="fpoly.groupExamples">
+        <test-method signature="testMethod1()[pri:0, instance:fpoly.groupExamples@741a8937]" started-at="2023-11-21T16:01:40 ICT" name="testMethod1" finished-at="2023-11-21T16:01:40 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod3()[pri:0, instance:fpoly.groupExamples@741a8937]" started-at="2023-11-21T16:01:40 ICT" name="testMethod3" finished-at="2023-11-21T16:01:40 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+      </class> <!-- fpoly.groupExamples -->
+    </test> <!-- Test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
