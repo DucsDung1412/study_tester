@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My suite">
+  <test name="Simple example">
+  	<classes>
+	  	<parameter name="param"  value="Cedric"/>
+		<class name="vn.DungVipPro.testSelenium.TestClass" />  		
+  	</classes>
+  </test>
+  <test name="Semple parameters">
+  		<parameter name="BrowserName"  value="FireFox"/>
+  		<parameter name="Username"  value="DungVipPro"/>
+  		<parameter name="Passcode"  value="123"/>
+  		<classes>
+			<class name="vn.DungVipPro.testSelenium.ParametersTesting" />  	
+  		</classes>
+  </test>
+</suite>
