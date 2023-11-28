@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [main-suite]">
+  <test thread-count="5" name="main-suite-test1(failed)">
+    <classes>
+      <class name="vn.DungVipPro.ktLab7.testClass1">
+        <methods>
+          <include name="t2"/>
+          <include name="t1"/>
+        </methods>
+      </class> <!-- vn.DungVipPro.ktLab7.testClass1 -->
+      <class name="vn.DungVipPro.ktLab7.testClass">
+        <methods>
+          <include name="a2"/>
+        </methods>
+      </class> <!-- vn.DungVipPro.ktLab7.testClass -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [main-suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="main-suite" parallel="false" >
+  <suite-files>
+  	<suite-file path="suite1.xml" />
+  	<suite-file path="suite2.xml" />
+  </suite-files>
+ 
+  <test name="main-suite-test1">
+    <classes>
+      <class name="vn.DungVipPro.ktLab7.testClass"/>
+      <class name="vn.DungVipPro.ktLab7.testClass1"/>
+    </classes>
+  </test>
+</suite>

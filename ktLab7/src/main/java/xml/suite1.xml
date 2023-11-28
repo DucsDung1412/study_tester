@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1"  parallel="false" >
+  <test name="suite1-test1" >
+    <classes>
+      <class name="vn.DungVipPro.ktLab7.testClass1"/>
+      <class name="vn.DungVipPro.ktLab7.testClass2"/>
+    </classes>
+  </test>
+ 
+  <test name="suite-test2">
+    <classes>
+      <class name="vn.DungVipPro.ktLab7.testClass3"/>
+      <class name="vn.DungVipPro.ktLab7.testFactory"/>
+    </classes>
+  </test>
+</suite>
