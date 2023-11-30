@@ -23,9 +23,9 @@ import org.testng.annotations.AfterClass;
 
 public class cc {
 	WebDriver driver;
-	String urlBase = "https://phptravels.org/login";
-	String username = "user@phptravels.com";
-	String password = "demouser";
+	String urlBase = "https://www.saucedemo.com/";
+	String username = "standard_user";
+	String password = "secret_sauce";
 	
 	Map<String, Object[]> testNGResuilt;
 	
@@ -47,10 +47,10 @@ public class cc {
   @Test(priority = 2)
   public void fillLoginDetails() {
 	  try {
-		  WebElement username = driver.findElement(By.name("username"));
+		  WebElement username = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
 		  username.sendKeys(this.username);
 		  
-		  WebElement password = driver.findElement(By.name("password"));
+		  WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]"));
 		  password.sendKeys(this.password);
 		  
 		  Thread.sleep(1000);
@@ -65,7 +65,7 @@ public class cc {
   @Test(priority = 3)
   public void doLogin() {
 	  try {
-		  WebElement loginbtn = driver.findElement(By.id("login1"));
+		  WebElement loginbtn = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
 		  loginbtn.click();
 		  testNGResuilt.put("4", new Object[] {3d, "Click Login and verify welcome message", "Login success", "Pass"});
 	  } catch (Exception e) {
@@ -89,7 +89,7 @@ public class cc {
   }
 
   @AfterClass
-  public void afterClass() {
+  public void afterClass() throws InterruptedException {
 	  Set<String> keyset = testNGResuilt.keySet();
 	  int rownum = 0;
 	  for (String string : keyset) {
@@ -118,6 +118,8 @@ public class cc {
 		  e.printStackTrace();
 		  Assert.assertTrue(false);
 	  } finally {
+		  
+		  Thread.sleep(5000);
 		  driver.close();
 		  driver.quit();
 	  }
